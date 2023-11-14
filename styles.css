@@ -1,0 +1,85 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.app p, .app button {
+    font-family: 'Comic Sans MS';
+}
+
+.header {
+    background: #42B5A4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.header p {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+}
+
+.content {
+    padding: 100px 30px;
+}
+
+.content .card {
+    padding: 50px;
+    background: #FFE488;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.content .card .question {
+    font-size: 50px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    padding: 0 100px;
+}
+
+.footer button {
+    font-size: 50px;
+    border-radius: 15px;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer .rand {
+    background: #42B5A4;
+    border: #42B5A4 2px solid;
+    padding: 30px 0px;
+}
+
+.footer .rand:hover {
+    background: #fff;
+    color: #42B5A4;
+}
+
+.footer .reset {
+    background: #E94F4F;
+    border: #E94F4F 2px solid;
+    padding: 20px;
+}
+
+.footer .reset:hover {
+    background: #fff;
+    color: #E94F4F;
+}
